@@ -237,12 +237,6 @@ CHROMA_DB_PATH=./vector_store      # Vector store location
 
 ## Trade-offs & Future Improvements
 
-### Current Implementation
-- ✅ Google Gemini 1.5 Pro (as specified in brief)
-- ✅ Local embeddings (private, fast, no API costs)
-- ✅ In-memory sessions (simple, good for MVP)
-- ✅ ChromaDB file persistence (lightweight)
-
 ### Production Considerations
 1. **LLM**: Gemini 1.5 Pro is already excellent; monitor usage and costs
 2. **Embeddings**: Consider Vertex AI Embeddings API for scaling if needed
@@ -273,31 +267,3 @@ curl -X POST http://localhost:8000/assess \
   -d '{"patient_id": "PT-103"}'
 ```
 
-Expected output should show:
-- Patient details
-- A risk recommendation
-- Reasoning grounded in symptoms
-- Citations from NG12 guidelines
-
-## Limitations & Disclaimers
-
-⚠️ **This is a demonstration system for educational purposes only.**
-
-- Not intended for actual clinical use without regulatory approval
-- All recommendations should be verified by qualified clinicians
-- NG12 PDF content is for illustration; use official NICE guidelines
-- Model outputs may hallucinate; always verify with primary sources
-
-## Support
-
-- For Claude Code help: `/help`
-- For GitHub issues: [anthropics/claude-code](https://github.com/anthropics/claude-code/issues)
-- For Groq API issues: [console.groq.com](https://console.groq.com)
-
-## License
-
-This project is provided as-is for the technical assessment.
-
----
-
-**Built with Claude AI** ✨
