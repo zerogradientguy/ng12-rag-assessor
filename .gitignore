@@ -172,3 +172,6 @@ TECHNICAL_DECISIONS.md
 # ============================================================================
 .venv.bak
 .vscode-server/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
