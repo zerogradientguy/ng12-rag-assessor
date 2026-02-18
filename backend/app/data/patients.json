@@ -1,0 +1,82 @@
+[
+  {
+    "patient_id": "PT-101",
+    "name": "John Doe",
+    "age": 55,
+    "symptoms": ["unexplained hemoptysis", "fatigue", "chest pain"],
+    "medical_history": ["smoking history", "COPD"],
+    "risk_factors": ["long-term smoker", "occupational exposure"]
+  },
+  {
+    "patient_id": "PT-102",
+    "name": "Jane Smith",
+    "age": 62,
+    "symptoms": ["persistent cough", "dysphagia"],
+    "medical_history": ["acid reflux"],
+    "risk_factors": ["previous smoker"]
+  },
+  {
+    "patient_id": "PT-103",
+    "name": "Robert Johnson",
+    "age": 58,
+    "symptoms": ["weight loss", "night sweats", "hemoptysis"],
+    "medical_history": ["diabetes"],
+    "risk_factors": ["family history of cancer"]
+  },
+  {
+    "patient_id": "PT-104",
+    "name": "Mary Wilson",
+    "age": 71,
+    "symptoms": ["hoarseness", "stridor"],
+    "medical_history": ["hypertension"],
+    "risk_factors": ["age over 60", "previous occupational exposure"]
+  },
+  {
+    "patient_id": "PT-105",
+    "name": "Michael Brown",
+    "age": 54,
+    "symptoms": ["chest wall pain"],
+    "medical_history": [],
+    "risk_factors": ["current smoker"]
+  },
+  {
+    "patient_id": "PT-106",
+    "name": "Patricia Garcia",
+    "age": 68,
+    "symptoms": ["recurrent pneumonia", "cough"],
+    "medical_history": ["asthma"],
+    "risk_factors": ["previous smoking"]
+  },
+  {
+    "patient_id": "PT-107",
+    "name": "David Martinez",
+    "age": 61,
+    "symptoms": ["finger clubbing", "dyspnea"],
+    "medical_history": ["GERD"],
+    "risk_factors": ["occupational asbestos exposure"]
+  },
+  {
+    "patient_id": "PT-108",
+    "name": "Linda Anderson",
+    "age": 59,
+    "symptoms": ["persistent sore throat"],
+    "medical_history": [],
+    "risk_factors": ["smoking history"]
+  },
+  {
+    "patient_id": "PT-109",
+    "name": "Richard Taylor",
+    "age": 65,
+    "symptoms": ["chest pain", "cough"],
+    "medical_history": ["hypertension", "CAD"],
+    "risk_factors": ["family history"]
+  },
+  {
+    "patient_id": "PT-110",
+    "name": "Susan Thomas",
+    "age": 56,
+    "symptoms": ["fatigue", "loss of appetite"],
+    "medical_history": ["thyroid disease"],
+    "risk_factors": ["age", "previous smoking"]
+  }
+]
