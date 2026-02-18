@@ -44,9 +44,6 @@ session_store = get_session_store()
 patient_store = get_patient_store()
 
 
-# ============================================================================
-# PART 1: CLINICAL DECISION SUPPORT ENDPOINTS
-# ============================================================================
 
 @app.post("/assess", response_model=AssessmentResponse)
 def assess_patient(request: AssessmentRequest):
@@ -73,9 +70,6 @@ def list_patients():
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# ============================================================================
-# PART 2: CHAT ENDPOINTS
-# ============================================================================
 
 @app.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest):
@@ -133,19 +127,11 @@ def clear_chat_session(session_id: str):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# ============================================================================
-# HEALTH CHECK
-# ============================================================================
-
 @app.get("/health")
 def health_check():
     """Health check endpoint."""
     return {"status": "ok", "service": "NG12 Cancer Risk Assessor"}
 
-
-# ============================================================================
-# STATIC FILES (Frontend)
-# ============================================================================
 
 # Mount frontend static files if they exist
 frontend_dist_path = Path(__file__).parent.parent.parent / "frontend" / "dist"

@@ -31,7 +31,7 @@ try:
     print("✓ Importing main app...")
     from app import main
 
-    print("\n✅ All imports successful!")
+    print("\n All imports successful!")
     print("\nKey classes available:")
     print(f"  - ClinicalDecisionAgent: {clinical_agent.ClinicalDecisionAgent}")
     print(f"  - ChatAgent: {chat_agent.ChatAgent}")
@@ -40,10 +40,10 @@ try:
     print(f"  - SessionStore: {session_store.SessionStore}")
 
 except ImportError as e:
-    print(f"\n❌ Import error: {e}")
+    print(f"\n Import error: {e}")
     sys.exit(1)
 except Exception as e:
-    print(f"\n❌ Error: {e}")
+    print(f"\n Error: {e}")
     sys.exit(1)
 
-print("\n📦 Ready to run the application!")
+print("\n Ready to run the application!")
